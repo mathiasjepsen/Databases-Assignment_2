@@ -5,7 +5,7 @@
 * PyMongo
 
 ## Execution
-Clone the repository, and move into Databases-Assignment_2/
+Clone the repository, and run the command below.
 ```
 git clone git@github.com:mathiasjepsen/Databases-Assignment_2.git && cd Databases-Assignment_2/
 ```
