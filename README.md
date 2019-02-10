@@ -33,3 +33,39 @@ mcraddictal     — 217
 Karen230683     — 216
 keza34          — 211
 TraceyHewins    — 202
+```
+### Who is are the most mentioned Twitter users? (Provide the top five.)
+```
+@mileycyrus    — 3824
+@tommcfly      — 3631
+@ddlovato      — 2954
+@DavidArchie   — 1106
+@Jonasbrothers — 1068
+```
+### Who are the most active Twitter users (top ten)?
+```
+lost_dog        — 549
+webwoke         — 345
+tweetpet        — 310
+SallytheShizzle — 281
+VioletsCRUK     — 279
+mcraddictal     — 276
+tsarnick        — 248
+what_bugs_u     — 246
+Karen230683     — 238
+DarkPiano       — 236
+```
+### Who are the five most grumpy (most negative tweets) and the most happy (most positive tweets)? (Provide five users for each group)
+```
+grumpy: lost_dog    – 549
+        tweetpet    – 310
+        webwoke     – 264
+        mcraddictal – 210
+        wowlew      – 210
+            
+happy:  what_bugs_u – 246
+        DarkPiano   – 231
+        VioletsCRUK – 218
+        tsarnick    – 212
+        keza34      – 211
+```
