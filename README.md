@@ -9,7 +9,7 @@ Clone the repository, and run the command below.
 ```
 git clone git@github.com:mathiasjepsen/Databases-Assignment_2.git && cd Databases-Assignment_2/
 ```
-Then simply run the following command, which will download the .csv file, unzip it, import its content into Mongo as a new database called _social_net_, and execute the five queries sequentially.
+Then simply run the following command, which will download a compressed file containing the .csv, unzip it, import its content into Mongo as a new database called _social_net_, and execute the five queries sequentially.
 ```
 python twitter_data_analysis.py
 ```
