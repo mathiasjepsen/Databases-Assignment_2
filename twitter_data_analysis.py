@@ -10,6 +10,7 @@ from io import BytesIO
 
 
 def import_data_from_csv():
+    print("Downloading .csv file.")
     result = requests.get("http://cs.stanford.edu/people/alecmgo/trainingandtestdata.zip")
     zip_file = zipfile.ZipFile(BytesIO(result.content))
     zip_file.extractall()
@@ -17,7 +18,8 @@ def import_data_from_csv():
     cwd = os.getcwd()
     path_to_file = os.path.join(
         cwd, "training.1600000.processed.noemoticon.csv")
-
+        
+    print("Importing data into Mongo")
     subprocess.run(["mongoimport", "--drop", "--db", "social_net", "--collection",
                     "tweets", "--type", "csv", "--file", path_to_file, 
                     "--fields", "polarity,id,date,query,user,text"])
@@ -177,8 +179,6 @@ def main():
     print("\nThe five most grumpy and five most happy users are: " + "\n")
     for user in most_polarizing_users(tweets):
         pprint.pprint(user)
-    print("\n")
-
     
 
 if __name__ == "__main__":
