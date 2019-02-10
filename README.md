@@ -34,7 +34,7 @@ Karen230683     — 216
 keza34          — 211
 TraceyHewins    — 202
 ```
-### Who is are the most mentioned Twitter users? (Provide the top five.)
+### Who are the most mentioned Twitter users? (Provide the top five.)
 ```
 @mileycyrus    — 3824
 @tommcfly      — 3631
